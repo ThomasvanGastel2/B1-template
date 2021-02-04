@@ -44,6 +44,12 @@ header{
   animation: fadein 4s;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .logo{
   margin: 0 auto;
   width: 512px;
