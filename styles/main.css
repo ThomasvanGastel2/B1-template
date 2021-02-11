@@ -174,7 +174,15 @@ button{
   justify-content: space-between;
 }
 
+.emphasize article {
+  box-shadow: 1px 0px 5px #27AE60;
+  padding: 1em;
+}
 
+.emphasize h2{
+  margin: 0;
+  border-left: none;
+  text-align: center;
 }
 
 
@@ -193,10 +201,10 @@ footer{
 }
 
 .hidden-on-lg{
-  display: block;
+  display: none;
 }
 .hidden-on-sm{
-  display: none;
+  display: block;
 }
 
 /* 
@@ -218,6 +226,13 @@ footer{
   .logo{
     margin: 0 auto;
     width: 256px;
+  }
+  .hidden-on-lg{
+    display: block;
+  }
+
+  .hidden-on-sm{
+    display: none;
   }
 
   .row{
