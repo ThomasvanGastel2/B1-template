@@ -207,6 +207,23 @@ footer{
   display: block;
 }
 
+.mok h2{
+  display: inline;
+  padding: 0em;
+}
+
+.info span{
+  font-weight: bold;
+}
+
+.detail{
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail p{
+  margin: 0em;
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
